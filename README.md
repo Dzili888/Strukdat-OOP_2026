@@ -148,3 +148,40 @@ class MahasiswaReguler extends Mahasiswa {
     }
 }
 ```
+
+---
+
+
+# Cara Menjalankan Project
+
+Ikuti langkah-langkah berikut untuk menjalankan program secara *local*.
+
+## 1. Clone Repository
+
+Download repository ini menggunakan perintah berikut:
+
+```bash
+git clone https://github.com/Dzili888/Strukdat-OOP_2026.git
+```
+
+## 2. Masuk ke Folder Project
+
+```bash
+cd Strukdat-OOP_2026/project_UKT-Mahasiswa
+```
+
+## 3. Compile Program
+
+Compile semua file Java:
+
+```bash
+javac *.java
+```
+
+## 4. Jalankan Program
+
+Setelah proses compile selesai, jalankan program dengan:
+
+```bash
+java Main
+```
