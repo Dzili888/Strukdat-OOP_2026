@@ -9,22 +9,24 @@
 
 ---
 
-## 1. Class & Object
-
+## Class & Object
 ### Class
-Di tugas kali ini, aku pakai struktur di mana `Mahasiswa` bertindak sebagai *abstract class* (induk). Dari induk ini, diturunkan lagi menjadi dua *class* spesifik:
+**Class merupakan Blue print atau cetakan untuk membuat sebuah Object**
+
+di program kali ini, Class utamanya (*abstract class*) adalah `Mahasiswa`. class utamanya diturunkan menjadi:
+
 - `MahasiswaReguler`
 - `MahasiswaBeasiswa`
 
-Berikut adalah cuplikan *source code* untuk class utamanya:
+Contoh:
 ```java
 abstract class Mahasiswa {
     private String nama;
     private String nrp;
 
     public Mahasiswa() {
-        this.nama = "Belum diisi";
-        this.nrp = "0000000";
+        this.nama = "Ucup";
+        this.nrp = "5027451045";
     }
 
     public Mahasiswa(String nama, String nrp) {
@@ -32,5 +34,5 @@ abstract class Mahasiswa {
         this.nrp = nrp;
     }
 
-    public abstract double hitungNilaiAkhir();
+    public abstract double UKT();
 }
